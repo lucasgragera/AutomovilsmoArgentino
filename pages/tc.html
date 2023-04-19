@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Secular+One&display=swap" rel="stylesheet">
+    <title>TC | AUTOMOVILISMO ARGENTINO</title>
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/bootstrap.css">
+    <meta name="description" content="Turismo Carretera - Todas las novedades y ultimas noticias a tu alcance">
+    <meta name="keywords" content="TC, Turismo Carretera, Calendario, Onboards, Canapino, Tecnica, Fotos, Autodromo">
+</head>
+<header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary headerfull">
+      <div class="container-fluid">
+        <img src="../multimedia/logo-aav.png" alt="logoaav" width="30px" height="30px">
+        <a class="navbar-brand nombreheader" href="../index.html">AUTOMOVILISMO ARGENTINO</a>
+        <button class="hambur navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="hamburr navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse menuorg" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 menuh">
+            <li class="nav-item underline">
+              <a class="nav-link active" aria-current="page" href="../index.html">HOME</a>
+            </li>
+            <li class="nav-item underline">
+              <a class="nav-link" href="../pages/tc2000.html">TC2000</a>
+            </li>
+            <li class="nav-item underline">
+              <a class="nav-link" href="../pages/tc.html">TC</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header> 
+
+    <script>
+        const togglebtn=document.querySelector(".toggle_btn")
+        const togglebtnicon=document.querySelector(".toggle_btn i")
+        const dropdownmenu=document.querySelector(".dropdown_menu")
+
+        togglebtn.onclick=function(){
+            dropdownmenu.classList.toggle("open")
+            const isopen=dropdownmenu.classList.contains("open")
+
+            togglebtnicon.classList=isopen
+                ? "fa-solid fa-xmark"
+                : "fa-solid fa-bars"
+        }
+    </script>
+</header>  
+
+<body>
+<div class="logo">
+    <img class="fotocateg" src="../multimedia/actc-logo.png" alt=""width="15%">
+    <h2 class="titulocateg">TURISMO CARRETERA</h2>
+</div>
+<div id="videofondo">
+    <div class="textovideotc">
+        <h1 class="tc1">POSICIONES FINALES 2022
+            <br>
+            1- Urcera, Jose Manuel (223.5 pts)
+            <br>
+            2- Werner, Mariano (211.5 pts)
+            <br>
+            3- Gini, Esteban (192.5 pts)
+            <br>
+            4- Pernia, Leonel (188 pts)
+            <br>
+            5- Castellano, Jonatan (170.25 pts)
+            <br> 
+            6- Canapino, Agustin (169.25 pts)
+            <br>
+            7- Ardusso, Facundo (145.5 pts)
+            <br>
+            8- Mangoni, Santiago (136,75 pts)
+            <br>
+            9- Todino, German (128,5 pts)
+            <br>
+            10- Lambiris, Mauricio (102 pts)
+        </h1>
+        <h1 class="tc2">CALENDARIO 2023
+            <br>
+            1- 12 feb. Viedma. 
+            <br>
+            2- 5 mar. Neuquén.
+            <br>
+            3- 26 mar. Toay.
+            <br> 
+            4- 16 abr. El Calafate.
+            <br>
+            5- 30 abr. Concepcion del Uruguay.
+            <br> 
+            6- 21 may. Termas de Rio Hondo.
+            <br> 
+            7- 11 jun. Rafaela.
+            <br> 
+            8- 2 jul. Posadas. 
+            <br>
+            9- 23 jul. Villicum.
+            <br>
+            10- 20 ago. Oscar y Juan Galvez.
+            <br>
+            11- 11 set. San Luis.
+            <br>
+            12- 1 oct. San Nicolas.
+            <br>
+            13- 29 oct. Concordia.
+            <br>
+            14-12 nov. Toay.
+            <br>
+            15- 3 dic. Villicum.
+        </h1>
+    </div>
+    <video muted autoplay loop
+    src="../multimedia/tc-video.mkv"></video>
+    <div class="capa"></div>    
+</div>
+
+<div class="textovideotcmobile">
+    <h3 class="tc1">POSICIONES FINALES 2022
+        <br>
+        1- Urcera, Jose Manuel (223.5 pts)
+        <br>
+        2- Werner, Mariano (211.5 pts)
+        <br>
+        3- Gini, Esteban (192.5 pts)
+        <br>
+        4- Pernia, Leonel (188 pts)
+        <br>
+        5- Castellano, Jonatan (170.25 pts)
+        <br> 
+        6- Canapino, Agustin (169.25 pts)
+        <br>
+        7- Ardusso, Facundo (145.5 pts)
+        <br>
+        8- Mangoni, Santiago (136,75 pts)
+        <br>
+        9- Todino, German (128,5 pts)
+        <br>
+        10- Lambiris, Mauricio (102 pts)
+    </h3>
+    <br>
+    <h3 class="tc2">CALENDARIO 2023
+        <br>
+        1- 12 feb. Viedma. 
+        <br>
+        2- 5 mar. Neuquén.
+        <br>
+        3- 26 mar. Toay.
+        <br> 
+        4- 16 abr. El Calafate.
+        <br>
+        5- 30 abr. Concepcion del Uruguay.
+        <br> 
+        6- 21 may. Termas de Rio Hondo.
+        <br> 
+        7- 11 jun. Rafaela.
+        <br> 
+        8- 2 jul. Posadas. 
+        <br>
+        9- 23 jul. Villicum.
+        <br>
+        10- 20 ago. Oscar y Juan Galvez.
+        <br>
+        11- 11 set. San Luis.
+        <br>
+        12- 1 oct. San Nicolas.
+        <br>
+        13- 29 oct. Concordia.
+        <br>
+        14-12 nov. Toay.
+        <br>
+        15- 3 dic. Villicum.
+    </h3>
+</div>
+<div class="containertc">
+    <div class="caja1tc">
+        <img src="../multimedia/canapinotc-indy.jpg"  alt=""width="90%" height="60%">
+        <h5>AGUSTIN CANAPINO DEJA EL TC, PARA INICIAR SU DESAFIO EN EL INDY</h5>
+    </div>
+    <div class="caja2tc" class="imgrad">
+        <img src="../multimedia/tc-autosycaract.jpg" alt=""width="90%" height="60%">
+        <h5>AUTOS Y CARACTERISTICAS</h5>
+        <h5 class="txtagre">Motor, Carga Aerodinamica, Dimensiones, Peso, y mas.</h5>
+    </div>
+    <div class="caja3tc" class="imgrad">
+        <img src="../multimedia/tc-camaras-abordo.jpg" alt=""width="90%" height="60%">
+        <h5>CAMARAS A BORDO</h5>
+        <h5 class="txtagre">Vivi desde adentro la experiencia de un TC</h5>
+    </div>
+    <br>
+    <div class="caja4tc" class="maps">
+        <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3107.054381189068!2d-68.15576358465098!3d-38.854112179577314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960bb55768e0323d%3A0x6f48b1532d47440d!2sAut%C3%B3dromo%20Parque%20Provincia%20del%20Neuqu%C3%A9n!5e0!3m2!1ses-419!2sar!4v1676647940385!5m2!1ses-419!2sar" width="70%" height="70%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <h5>PROXIMA FECHA:</h5>
+    </div>
+</div> 
+
+<div class="nogridtc">
+    <div class="centrartodotc">
+        <img src="../multimedia/canapinotc-indy.jpg"  alt=""width="90%" height="60%">
+        <h5 class="txthtml" >AGUSTIN CANAPINO DEJA EL TC, PARA INICIAR SU DESAFIO EN EL INDY</h5>
+        <h5 class="txtagre"> El piloto argentino emprende viaje a USA para comenzar su nuevo desafio</h5>
+    </div>
+    <div class="centrartodotc">
+        <img src="../multimedia/tc-autosycaract.jpg" alt=""width="90%" height="60%">
+        <h5 class="txthtml" >AUTOS Y CARACTERISTICAS</h5>
+        <h5 class="txtagre">Motor, Carga Aerodinamica, Dimensiones, Peso, y mas.</h5>
+    </div>
+    <div class="centrartodotc">
+        <img src="../multimedia/tc-camaras-abordo.jpg" alt=""width="90%" height="60%">
+        <h5 class="txthtml" >CAMARAS A BORDO</h5>
+        <h5 class="txtagre">Vivi desde adentro la experiencia de un TC</h5>
+    </div>
+    <div class="centrartodotc">
+        <h5 class="txthtml" >PROXIMA FECHA:</h5>
+        <iframe class="iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3107.054381189068!2d-68.15576358465098!3d-38.854112179577314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x960bb55768e0323d%3A0x6f48b1532d47440d!2sAut%C3%B3dromo%20Parque%20Provincia%20del%20Neuqu%C3%A9n!5e0!3m2!1ses-419!2sar!4v1676647940385!5m2!1ses-419!2sar" width="70%" height="70%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+</div>
+<br>
+    <a>
+        <h3 class="titulomultimedia txthtml">MULTIMEDIA</h3>
+        <div class="multimediatc">
+            <img class="foto1tc" src="../multimedia/tc-multimedia1.jpeg" alt=""width="100%" height="100%">
+            <img class="foto2tc" src="../multimedia/tc-multimedia2.jpeg" alt=""width="100%" height="100%">
+            <img class="foto3tc" src="../multimedia/tc-multimedia3.jpeg" alt=""width="100%" height="100%">
+            <img class="foto4tc" src="../multimedia/tc-multimedia4.jpeg" alt=""width="100%" height="100%">
+            <img class="foto5tc" src="../multimedia/tc-multimedia5.jpeg" alt=""width="100%" height="100%">
+            <img class="foto6tc" src="../multimedia/tc-multimedia6.jpeg" alt=""width="100%" height="100%">
+        </div>    
+        <a>
+            <iframe class="videotc" width="75%" height="50%" src="https://www.youtube.com/embed/G1hjTVKLIBA" title="Victoria de Werner en San Luis | Resumen de la Carrera del Turismo Carretera en San Luis 2022" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </a>
+    </a>       
+
+
+
+    <footer>
+        <div class="footer">
+            <h5>Encontranos en: </h5> 
+            <div class="fotofooter">
+                <img src="../multimedia/logo-instagram.png" alt=""width="2%">
+                <img src="../multimedia/logo-facebook.jpg" alt=""width="2%">
+                <img src="../multimedia/logo-twitter.png" alt=""width="2%">
+                <img src="../multimedia/logo-wpp.jpg" alt=""width="2%">
+            </div>
+            <h5 class="textofooter">Suscribite 
+            y recibi la informacion de nuestro automovilismo</h5>
+            <div>
+                <form action="">
+                    <div class="formulario" >
+                        <input class="forms" type="text" placeholder="Nombre">
+                        <input class="forms" type="email" placeholder="Email">
+                    </div>
+                </form>
+            </div>
+        </div>   
+    </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+</body>
+</html>
